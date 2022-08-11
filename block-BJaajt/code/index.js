@@ -7,17 +7,17 @@ const following = document.querySelector('.following');
 const followers = document.querySelector('.followers');
 
 function fetch(url, successHandler) {
-  let xml = new XMLHttpRequest();
+  let xhr = new XMLHttpRequest();
 
-  xml.open('GET', url);
+  xhr.open('GET', url);
 
-  xml.onload = () => successHandler(JSON.parse(xml.response));
+  xhr.onload = () => successHandler(JSON.parse(xhr.response));
 
-  xml.onerror = function () {
+  xhr.onerror = function () {
     console.error('Something went wrong');
   };
 
-  xml.send();
+  xhr.send();
 }
 
 function display(url, rootElm) {
@@ -53,7 +53,7 @@ function handleChange(event) {
   }
 }
 
-input.addEventListener('keyup', handleChange);
+input.addEventListener('keydown', handleChange);
 
 const img = document.querySelector('.cat');
 const reload = document.querySelector('button');
