@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(149, 172, 214);
+  text-align: center;
+  margin: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.3rem;
+}
+
+.image {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1fr;
+}
+
+img {
+  margin: 0.5rem;
+}
