@@ -1,0 +1,60 @@
+body {
+  background-color: tan;
+  margin: 0;
+  line-height: 1.5;
+  padding: 1rem;
+  text-align: center;
+}
+
+select {
+  padding: 0.5rem 1rem;
+}
+
+a {
+  color: white;
+  text-align: right;
+}
+
+ul {
+  list-style: none;
+  width: 900px;
+  margin: 1rem auto;
+  text-align: left;
+}
+
+li {
+  margin: 1rem;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  margin: 0.5rem;
+}
+
+h4 {
+  background-color: teal;
+  padding: 0.5rem 0.8rem;
+  border-radius: 1rem;
+  display: inline;
+  text-align: left;
+}
+
+p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+button {
+  background-color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  text-align: right;
+}
+
+.flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
