@@ -49,7 +49,7 @@ fetch(url)
 select.addEventListener('change', (event) => {
   let source = event.target.value.trim();
   if (source) {
-    filterdNews = allNews.filter((news) => news.newsSite === source);
+    var filterdNews = allNews.filter((news) => news.newsSite === source);
   } else {
     filterdNews = allNews;
   }
