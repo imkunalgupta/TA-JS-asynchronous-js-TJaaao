@@ -22,7 +22,7 @@ header {
   font-size: 2rem;
 }
 
-.ul-Char {
+.book-list {
   display: flex;
   flex-wrap: wrap;
   margin: 0.8rem auto;
@@ -54,13 +54,13 @@ p {
   font-weight: 500;
 }
 
-button {
+.btn {
   border-radius: 1rem;
   background-color: black;
   padding: 0.3rem 0.8rem;
   border: none;
   cursor: pointer;
-}
+  color: aliceblue;
 
 a {
   text-decoration: none;
@@ -93,6 +93,7 @@ a {
   justify-content: center;
   align-items: center;
   text-align: center;
+  color: aliceblue;
 }
 
 .list {
@@ -102,7 +103,7 @@ a {
   align-items: flex-start;
 }
 
-.form {
+.modal-window {
   background-color: cadetblue;
   border-radius: 1rem;
   margin: 2rem;
@@ -113,7 +114,7 @@ a {
   display: none;
 }
 
-.close {
+.modal-close {
   cursor: pointer;
 }
 
